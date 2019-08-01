@@ -1343,6 +1343,10 @@ height:auto;
   margin-bottom: 10px;
 }
 
+#height-contact{
+height:500px;
+}
+
 /* Smaller than standard 960 (devices and browsers) */
 @media only screen and (max-width: 959px) {
 
