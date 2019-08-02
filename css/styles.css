@@ -1486,12 +1486,43 @@ h1.none.content-font{padding-top:2%!important;
 
 .miller-wrapper{
 
-background-image: url(../img/miller_background.png);
+background-image: url(../img/miller_background_2.png);
 background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
 
 
+height:auto;
+     filter:grayscale(0);
+-webkit-filter:grayscale(0);
+}
+
+
+.roe-wrapper {
+    background-image: url(../img/roe_background.png);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+height:auto;
+     filter:grayscale(0);
+-webkit-filter:grayscale(0);
+}
+
+.mongolia-wrapper {
+    background-image: url(../img/mongolia_background.png);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+height:auto;
+     filter:grayscale(0);
+-webkit-filter:grayscale(0);
+}
+
+.hotter-wrapper {
+    background-image: url(../img/Somelikeithotter.png);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
 height:auto;
      filter:grayscale(0);
 -webkit-filter:grayscale(0);
