@@ -84,7 +84,7 @@
     </div>
 
 
-    <div class="row gnt-wrapper">
+    <div class="row gnt-wrapper" id="open_gnt">
       <div class="row">
         <div class="col-md-6">
           <h2>GNT</h2></div>
@@ -194,7 +194,10 @@ Extensive research was undertaken to create GNT. Firstly, the focus was on decid
 
         </div>
 
-        <span class="close2_">&times;</span>
+        <span class="close2_"><div class="flexwrapper2 title-spacing">
+          <div class="column-12 title-backing">
+            <h4>CLOSE</h4></div>
+        </div></span>
 
 
 
@@ -211,12 +214,19 @@ Extensive research was undertaken to create GNT. Firstly, the focus was on decid
 
       // Get the button that opens the modal
       var btn2 = document.getElementById("myBtn2");
+      var btn2open = document.getElementById("open_gnt");
+
 
       // Get the <span> element that closes the modal
       var span2 = document.getElementsByClassName("close2")[0];
       var span22 = document.getElementsByClassName("close2_")[0];
       // When the user clicks the button, open the modal
+
       btn2.onclick = function() {
+        modal2.style.display = "block";
+      }
+
+      btn2open.onclick = function() {
         modal2.style.display = "block";
       }
 
@@ -240,7 +250,7 @@ Extensive research was undertaken to create GNT. Firstly, the focus was on decid
 
 
 
-    <div class="row STS-wrapper">
+    <div class="row STS-wrapper" id="open_sts">
 
       <div class="row">
         <div class="col-md-offset-6 col-md-6 section-padding">
@@ -318,8 +328,12 @@ We designed the game to have a vibrant blue house style to reflect that of the s
 
 
 
-  <span class="close_">&times;</span>
+
         </div>
+        <span class="close_"><div class="flexwrapper2 title-spacing">
+          <div class="column-12 title-backing">
+            <h4>CLOSE</h4></div>
+        </div></span>
       </div>
     </div>
 
@@ -330,12 +344,17 @@ We designed the game to have a vibrant blue house style to reflect that of the s
 
       // Get the button that opens the modal
       var btn = document.getElementById("myBtn");
+      var btnopen = document.getElementById("open_sts");
 
       // Get the <span> element that closes the modal
       var span = document.getElementsByClassName("close")[0];
       var span11 = document.getElementsByClassName("close_")[0];
       // When the user clicks the button, open the modal
       btn.onclick = function() {
+        modal.style.display = "block";
+      }
+
+      btnopen.onclick = function() {
         modal.style.display = "block";
       }
 
@@ -360,7 +379,7 @@ We designed the game to have a vibrant blue house style to reflect that of the s
 
 
 
-    <div class="row YMCA-wrapper">
+    <div class="row YMCA-wrapper" id="ymca_open">
       <div class="row">
         <div class="col-md-6 section-padding"><h2>YMCA - DON'T LOOK THE OTHER WAY</h2></div>
       </div>
@@ -401,7 +420,7 @@ We designed the game to have a vibrant blue house style to reflect that of the s
                     <div class="column-12 section-padding">
                       <h5>360 VIDEO</h5>
                       <p class="text-style">During my university placement year at Southpaw, West Kent YMCA launched a campaign called ‘Don’t Look The Other Way’. Southpaw set out to create a 360 degree video that would highlight how the general public would look away when encountering homeless people on the street. Not only this, but the video wanted to emphasize being ignored had a damaging effect. <br><br>
-I played a big role in this project. I was then given the responsibility of setting up and using the Samsung 360 camera, edit 360-film and also add both animations and text. I had to ensure that what we wanted to create was achievable with our technology and that ideas put forward for the video were brought to life to the best of our best ability. Furthermore, when we were shooting, I was in charge of the setup of equipment and calculating the distances needed when shooting. I had to made sure all equipment was charged and memory cards were empty. I also directed Becky, a homeless person who allowed us to recreate her life story in parts of our video, during the shoot. <br><br>
+I played a big role in this project. I was given the responsibility of setting up and using the Samsung 360 camera and editing the 360-film. I had to ensure that what we wanted to create was achievable with our technology and that ideas put forward for the video were brought to life to the best of our best ability. Furthermore, when we were shooting, I was in charge of the setup of equipment and calculating the distances needed when shooting. I had to made sure all equipment was charged and memory cards were empty. I also directed Becky, a homeless person who allowed us to recreate her life story in parts of our video, during the shoot. <br><br>
 The final feature resulted in two 180-degree videos sewn together in After Effects with added features whilst also including factual text throughout. On one half of the video viewers would experience the ‘dark’ side in which Becky is left neglected, and the other half a ‘brighter’ side where viewers didn’t turn a blind eye but instead supported her, which shows Becky in her boutique shop.<br><br>
 Simply click and drag the screen if you're on desktop or use the 360-degree functionality if you're on mobile. It's even better if you have a VR headset or Google Cardboard. Best viewed in Chrome or via the YouTube App:<br><br>
 </p>
@@ -468,7 +487,7 @@ Footage was gathered from the fundraising day which was then used to create the 
             <div class="column-12 section-padding">
               <h5>EMAILER</h5>
               <p class="text-style">
-              Finally, I created an internal emailer. This involved testing my code on many various browsers and emails to ensure that it was always compatible.
+              Finally, I created an internal emailer using HTML and CSS. This involved testing my code on many various browsers and emails to ensure that it was always compatible.
         </p>
             </div>
           </div>
@@ -485,7 +504,10 @@ Footage was gathered from the fundraising day which was then used to create the 
 
         </div>
 
-        <span class="close3_">&times;</span>
+        <span class="close3_"><div class="flexwrapper2 title-spacing">
+          <div class="column-12 title-backing">
+            <h4>CLOSE</h4></div>
+        </div></span>
 
 
       </div>
@@ -502,6 +524,7 @@ Footage was gathered from the fundraising day which was then used to create the 
 
       // Get the button that opens the modal
       var btn3 = document.getElementById("myBtn3");
+      var btn3open = document.getElementById("ymca_open");
 
       // Get the <span> element that closes the modal
       var span3 = document.getElementsByClassName("close3")[0];
@@ -509,6 +532,10 @@ Footage was gathered from the fundraising day which was then used to create the 
 
       // When the user clicks the button, open the modal
       btn3.onclick = function() {
+        modal3.style.display = "block";
+      }
+
+      btn3open.onclick = function() {
         modal3.style.display = "block";
       }
 
@@ -534,7 +561,7 @@ Footage was gathered from the fundraising day which was then used to create the 
 
 
 
-    <div class="row gallo-wrapper">
+    <div class="row gallo-wrapper" id="gallo_open">
       <div class="col-md-offset-6 col-md-6 section-padding">
         <h2>GALLO</h2></div>
 
@@ -578,9 +605,9 @@ Footage was gathered from the fundraising day which was then used to create the 
             <div class="column-12 section-padding">
               <h5>GALLO LABELS</h5>
               <p class="text-style">
-                To celebrate summer, Gallo wanted to produce some fun and colourful posts advertising their ‘Spritz’ collection. Each Gallo wine bottle has its own personality and flavour, the aim for these pieces were to encapture this visually. The flavours presented were Raspberry and Lime is, Peach and Nectarine, Wild Strawberry and Pineapple and Passionfruit.
+                To celebrate summer, Gallo wanted to produce some fun and colourful posts advertising their ‘Spritz’ collection. Each Gallo wine bottle has its own personality and flavour, the aim for these pieces were to encapture this visually. The flavours presented were Raspberry and Lime, Peach and Nectarine, Wild Strawberry, and Pineapple and Passionfruit.
 
-<br><br>I was given assets consisting of an array of patterns, fruits and plants to choose from which would slowly transition from behind each of the different flavour wine bottles label. I was given a lot of freedom with this brief and could decide the movement, positioning, timing, assets and music used in each video.
+<br><br>I was given assets consisting of an array of patterns, fruits and plants. I had choose which assets to include, and edit them to slowly transition from behind the gallo wine bottle labels. I was given a lot of freedom with this brief and could decide the movement, positioning, timing, assets and music used in each video.
 </p>
             </div>
           </div>
@@ -648,7 +675,10 @@ Footage was gathered from the fundraising day which was then used to create the 
 
 
 
-        <span class="close4_">&times;</span>
+        <span class="close4_"><div class="flexwrapper2 title-spacing">
+          <div class="column-12 title-backing">
+            <h4>CLOSE</h4></div>
+        </div></span>
 
       </div>
 
@@ -671,6 +701,7 @@ Footage was gathered from the fundraising day which was then used to create the 
 
       // Get the button that opens the modal
       var btn4 = document.getElementById("myBtn4");
+      var btn4open = document.getElementById("gallo_open");
 
       // Get the <span> element that closes the modal
       var span4 = document.getElementsByClassName("close4")[0];
@@ -678,6 +709,10 @@ Footage was gathered from the fundraising day which was then used to create the 
 
       // When the user clicks the button, open the modal
       btn4.onclick = function() {
+        modal4.style.display = "block";
+      }
+
+      btn4open.onclick = function() {
         modal4.style.display = "block";
       }
 
@@ -700,13 +735,13 @@ Footage was gathered from the fundraising day which was then used to create the 
 
 
 
-    <div class="row website-wrapper">
+    <div class="row website-wrapper" id="jw_open">
       <div class="row">
         <div class="col-md-6 section-padding">
           <h2>JOHNNIE WALKER</h2></div>
       </div>
       <div class="row">
-        <p class="col-md-6 section-padding">Johnnie walker attended the British Grand Prix in Silverstone. They delivered an unforgettable experience at the johnnie walker highball bar with live music and cocktail masterclasses’. Video content and emailers were created to promote the iconic Johnnie Walker Highball drinks.</p>
+        <p class="col-md-6 section-padding">Johnnie walker attended the British and German Grand Prix. They delivered an unforgettable experience at the johnnie walker highball bar with live music and cocktail masterclasses’. Video content and emailers were created to promote the iconic Johnnie Walker Highball drinks.</p>
       </div>
       <div class="row">
         <button type="submit" style="border:0; background: transparent" id="myBtn5" class="col-md-6 button center-block">
@@ -731,7 +766,7 @@ Footage was gathered from the fundraising day which was then used to create the 
         <div class="flexwrapper2 title-spacing">
           <h4>JOHNNIE WALKER</h4>
         </div>
-      </div>
+
 
       <div class="flexwrapper">
 
@@ -779,7 +814,7 @@ Footage was gathered from the fundraising day which was then used to create the 
         <div class="flexrow">
           <div class="column-12 section-padding">
             <h5>JOHNNIE WALKER EMAILERS</h5>
-            <p class="text-style"> Also I created emailers which included content all about the events.
+            <p class="text-style"> Also I created emailers which included content all about the events. These were created using HTML and CSS. This involved testing my code on many various browsers and emails to ensure that it was always compatible.
             </p>
           </div>
         </div>
@@ -852,8 +887,11 @@ Footage was gathered from the fundraising day which was then used to create the 
       </div>
 
 
-      <span class="close5_">&times;</span>
-
+      <span class="close5_"><div class="flexwrapper2 title-spacing">
+        <div class="column-12 title-backing">
+          <h4>CLOSE</h4></div>
+      </div></span>
+  </div>
     </div>
 
     <script>
@@ -862,6 +900,7 @@ Footage was gathered from the fundraising day which was then used to create the 
 
       // Get the button that opens the modal
       var btn5 = document.getElementById("myBtn5");
+      var btn5open = document.getElementById("jw_open");
 
       // Get the <span> element that closes the modal
       var span5 = document.getElementsByClassName("close5")[0];
@@ -869,6 +908,9 @@ Footage was gathered from the fundraising day which was then used to create the 
 
       // When the user clicks the button, open the modal
       btn5.onclick = function() {
+        modal5.style.display = "block";
+      }
+      btn5open.onclick = function() {
         modal5.style.display = "block";
       }
 
@@ -890,7 +932,7 @@ Footage was gathered from the fundraising day which was then used to create the 
     </script>
 
 
-    <div class="row miller-wrapper">
+    <div class="row miller-wrapper" id="miller_open">
       <div class="col-md-offset-6 col-md-6 section-padding">
         <h2>MILLER</h2></div>
 
@@ -925,7 +967,7 @@ Footage was gathered from the fundraising day which was then used to create the 
         <div class="flexwrapper2 title-spacing">
           <h4>MILLER</h4>
         </div>
-      </div>
+
 
 
 
@@ -935,7 +977,7 @@ Footage was gathered from the fundraising day which was then used to create the 
           <div class="column-12 section-padding">
             <h5>MILLER CINEMAGRAPHS</h5>
             <p class="text-style">
-              Miller wanted to repurpose some content so that it could be used on their social media again. I therefore was given the task of taking an image and turning it into a moving cinemagraph. This would add life and create a seamless looping video which can be used across their media platforms. To do this I manipulated the images given to me on Photoshop. I cut out different sections of the image and saved out multiple different layers which I could then manipulate on After Effects to create looping movement. The different movement I added included, drips, steam, opening a bottle cap, light flares and opening a bottle. Although this is a relatively simple idea it was very affective and created some great content. In After Effects I utilised a plugin called Trapcode Particular to create my desired look.</p>
+              Miller wanted to repurpose some content so that it could be used on their social media again. I therefore was given the task of taking an image and turning it into a moving cinemagraph. This would add life and create a seamless looping video which can be used across their media platforms. To do this I manipulated the images given to me on Photoshop. I cut out different sections of the image and saved out multiple different layers which I could then manipulate on After Effects to create looping movement. The different movement I added included, drips, steam, opening a bottle and light flares. Although this is a relatively simple idea it was very affective and created some great content. In After Effects I utilised a plugin called Trapcode Particular to create my desired look.</p>
           </div>
         </div>
         <div class="flexrow">
@@ -1008,8 +1050,11 @@ Footage was gathered from the fundraising day which was then used to create the 
 
 
 
-      <span class="close6_">&times;</span>
-
+      <span class="close6_"><div class="flexwrapper2 title-spacing">
+        <div class="column-12 title-backing">
+          <h4>CLOSE</h4></div>
+      </div></span>
+</div>
     </div>
 
     <script>
@@ -1018,6 +1063,8 @@ Footage was gathered from the fundraising day which was then used to create the 
 
       // Get the button that opens the modal
       var btn6 = document.getElementById("myBtn6");
+      var btn6open = document.getElementById("miller_open");
+
 
       // Get the <span> element that closes the modal
       var span6 = document.getElementsByClassName("close6")[0];
@@ -1025,6 +1072,10 @@ Footage was gathered from the fundraising day which was then used to create the 
 
       // When the user clicks the button, open the modal
       btn6.onclick = function() {
+        modal6.style.display = "block";
+      }
+
+      btn6open.onclick = function() {
         modal6.style.display = "block";
       }
 
@@ -1048,12 +1099,12 @@ Footage was gathered from the fundraising day which was then used to create the 
 
 
 
-    <div class="row roe-wrapper">
+    <div class="row roe-wrapper" id="roe_open">
       <div class="row">
         <div class="col-md-6 section-padding"><h2>ROE & CO</h2></div>
       </div>
       <div class="row">
-        <p class="col-md-6 section-padding">This is an area where I have a keen interest and I would love to develop my skills further. I have created responsive websites and these have expanded my knowledge, using Jquerys, Javascript and Bootstrap.</p>
+        <p class="col-md-6 section-padding">A stylish and upbeat video was created for Roe and Co whiskey to be released on St Patricks Day across their social media platforms.</p>
       </div>
       <div class="row">
         <button type="submit" style="border:0; background: transparent" id="myBtn7" class="col-md-6 button center-block">
@@ -1080,7 +1131,7 @@ Footage was gathered from the fundraising day which was then used to create the 
         <div class="flexwrapper2 title-spacing">
           <h4>ROE & CO</h4>
         </div>
-      </div>
+
 
 
 
@@ -1119,8 +1170,11 @@ Footage was gathered from the fundraising day which was then used to create the 
 
 
 
-      <span class="close7_">&times;</span>
-
+      <span class="close7_"><div class="flexwrapper2 title-spacing">
+        <div class="column-12 title-backing">
+          <h4>CLOSE</h4></div>
+      </div></span>
+</div>
     </div>
 
     <script>
@@ -1129,6 +1183,7 @@ Footage was gathered from the fundraising day which was then used to create the 
 
       // Get the button that opens the modal
       var btn7 = document.getElementById("myBtn7");
+      var btn7open = document.getElementById("roe_open");
 
       // Get the <span> element that closes the modal
       var span7 = document.getElementsByClassName("close7")[0];
@@ -1136,6 +1191,10 @@ Footage was gathered from the fundraising day which was then used to create the 
 
       // When the user clicks the button, open the modal
       btn7.onclick = function() {
+        modal7.style.display = "block";
+      }
+
+      btn7open.onclick = function() {
         modal7.style.display = "block";
       }
 
@@ -1163,7 +1222,7 @@ Footage was gathered from the fundraising day which was then used to create the 
 
 
 
-    <div class="row mongolia-wrapper">
+    <div class="row mongolia-wrapper" id="mongolia_open">
       <div class="col-md-offset-6 col-md-6 section-padding">
         <h2>PROJECT MONGOLIA</h2></div>
 
@@ -1180,11 +1239,13 @@ Footage was gathered from the fundraising day which was then used to create the 
                 </button>
         </div>
       </div>
+
       <div class="row">
         <div class="col-md-offset-6 col-md-6 lower-space">
           <p class="center-block icon-text"></p>
         </div>
       </div>
+
     </div>
 
 
@@ -1198,7 +1259,7 @@ Footage was gathered from the fundraising day which was then used to create the 
             <div class="flexwrapper2 title-spacing">
               <h4>PROJECT MONGOLIA</h4>
             </div>
-          </div>
+
 
 
 
@@ -1206,7 +1267,7 @@ Footage was gathered from the fundraising day which was then used to create the 
 
             <div class="flexrow">
               <div class="column-12 section-padding">
-                <h5>PROJECT MONGOLIA</h5>
+                <h5>POSTER AND FACEBOOK BANNER</h5>
                 <p class="text-style">
                   Project Mongolia requested a vibrant poster for a fundraising ball with an international theme It was suggested to include images of flags, and images of the previous years ball. In addition, I created a Facebook banner which had the same style as the poster. I ensured it was the optimal size for desktop and mobile, therefore allowing it to be legible on all devices. </p>
               </div>
@@ -1232,8 +1293,11 @@ Footage was gathered from the fundraising day which was then used to create the 
 
 
 
-          <span class="close8_">&times;</span>
-
+          <span class="close8_"><div class="flexwrapper2 title-spacing">
+            <div class="column-12 title-backing">
+              <h4>CLOSE</h4></div>
+          </div></span>
+</div>
         </div>
 
         <script>
@@ -1242,6 +1306,7 @@ Footage was gathered from the fundraising day which was then used to create the 
 
           // Get the button that opens the modal
           var btn8 = document.getElementById("myBtn8");
+          var btn8open = document.getElementById("mongolia_open");
 
           // Get the <span> element that closes the modal
           var span8 = document.getElementsByClassName("close8")[0];
@@ -1250,6 +1315,10 @@ Footage was gathered from the fundraising day which was then used to create the 
 
           // When the user clicks the button, open the modal
           btn8.onclick = function() {
+            modal8.style.display = "block";
+          }
+
+          btn8open.onclick = function() {
             modal8.style.display = "block";
           }
 
@@ -1274,7 +1343,7 @@ Footage was gathered from the fundraising day which was then used to create the 
 
 
 
-    <div class="row hotter-wrapper">
+    <div class="row hotter-wrapper" id="hotter_open">
       <div class="row">
         <div class="col-md-6 section-padding"><h2>SOME LIKE IT HOTTER</h2></div>
       </div>
@@ -1302,7 +1371,7 @@ Footage was gathered from the fundraising day which was then used to create the 
         <div class="flexwrapper2 title-spacing">
           <h4>SOME LIKE IT HOTTER</h4>
         </div>
-      </div>
+
 
 
 
@@ -1310,9 +1379,9 @@ Footage was gathered from the fundraising day which was then used to create the 
 
         <div class="flexrow">
           <div class="column-12 section-padding">
-            <h5>SOME LIKE IT HOTTER</h5>
+            <h5>CHRISTMAS POSTER</h5>
             <p class="text-style">
-            Some Like It Hotter needed an a4 poster to catch the attention of the public in East Sussex to join them at their Christmas extravaganza, The poster created needed to be eye-catching and fun, yet classy and sophisticated. The iconic figure for the band had to be included and so did the name of the band ‘Some Like It Hotter’.
+            Some Like It Hotter needed an A4 poster to catch the attention of the public in East Sussex to join them at their Christmas extravaganza. The poster created needed to be eye-catching and fun, yet classy and sophisticated. The iconic figure for the band had to be included and so did the name of the band ‘Some Like It Hotter’.
           </p>
           </div>
         </div>
@@ -1339,8 +1408,11 @@ Footage was gathered from the fundraising day which was then used to create the 
 
 
 
-      <span class="close9_">&times;</span>
-
+      <span class="close9_"><div class="flexwrapper2 title-spacing">
+        <div class="column-12 title-backing">
+          <h4>CLOSE</h4></div>
+      </div></span>
+  </div>
     </div>
 
     <script>
@@ -1350,12 +1422,18 @@ Footage was gathered from the fundraising day which was then used to create the 
       // Get the button that opens the modal
       var btn9 = document.getElementById("myBtn9");
 
+      var btn9open = document.getElementById("hotter_open");
+
       // Get the <span> element that closes the modal
       var span9 = document.getElementsByClassName("close9")[0];
-      var span99 = document.getElementsByClassName("close9")[0];
+      var span99 = document.getElementsByClassName("close9_")[0];
 
       // When the user clicks the button, open the modal
       btn9.onclick = function() {
+        modal9.style.display = "block";
+      }
+
+      btn9open.onclick = function() {
         modal9.style.display = "block";
       }
 

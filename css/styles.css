@@ -507,11 +507,7 @@ margin-top: -8px;
 }
 
 .close_ {
-    color: #aaaaaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-    margin-right: -45px;
+
 }
 
 .close:hover,
@@ -572,12 +568,7 @@ margin-top: -8px;
 }
 
 .close2_ {
-    color: #aaaaaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-    margin-right: -5px;
-margin-top: -8px;
+
 }
 
 .close2:hover,
@@ -644,12 +635,8 @@ margin-top: -8px;
 margin-top: -8px;
 }
 .close3_ {
-    color: #aaaaaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-    margin-right: -5px;
-margin-top: -8px;
+
+
 }
 
 .close3:hover,
@@ -710,12 +697,7 @@ margin-top: -8px;
 }
 
 .close4_ {
-    color: #aaaaaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-    margin-right: -5px;
-margin-top: -8px;
+
 }
 
 .close4:hover,
@@ -771,10 +753,7 @@ margin-top: -8px;
 }
 
 .close5_, .close6_, .close7_ , .close8_,  .close9_{
-    color: #aaaaaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
+
 }
 
 
@@ -799,10 +778,10 @@ margin-top: -8px;
 .close6_:focus,
 .close7_:hover,
 .close7_:focus,
-.close8:hover,
-.close8:focus,
-.close9:hover,
-.close9:focus {
+.close8_:hover,
+.close8_:focus,
+.close9_:hover,
+.close9_:focus {
     color: #000;
     text-decoration: none;
     cursor: pointer;
