@@ -1414,7 +1414,7 @@ h1.none.content-font{padding-top:2%!important;
 @media screen and (max-width:1024px){
    .gnt-wrapper{
 
-    background-image: url(../img/GNT.jpg);
+    background-image: url(../img/GNT_mobile.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1426,7 +1426,7 @@ h1.none.content-font{padding-top:2%!important;
 }
 
     .STS-wrapper{
-    background-image: url(../img/STS.jpg);
+    background-image: url(../img/STS_mobile.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1439,7 +1439,7 @@ h1.none.content-font{padding-top:2%!important;
 
     .YMCA-wrapper{
 
-    background-image: url(../img/YMCA.png);
+    background-image: url(../img/YMCA_mobile.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1452,12 +1452,10 @@ h1.none.content-font{padding-top:2%!important;
 
     .gallo-wrapper{
 
-    background-image: url(../img/Gallo.png);
+    background-image: url(../img/Gallo_mobile.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-
-
     height:auto;
          filter:grayscale(0);
     -webkit-filter:grayscale(0);
@@ -1465,7 +1463,7 @@ h1.none.content-font{padding-top:2%!important;
 
 .miller-wrapper{
 
-background-image: url(../img/miller_background_2.png);
+background-image: url(../img/miller_background_2_mobile.png);
 background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
@@ -1478,7 +1476,7 @@ height:auto;
 
 
 .roe-wrapper {
-    background-image: url(../img/roe_background.png);
+    background-image: url(../img/roe_background_mobile.png);
 background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
@@ -1488,7 +1486,7 @@ height:auto;
 }
 
 .mongolia-wrapper {
-    background-image: url(../img/mongolia_background.png);
+    background-image: url(../img/mongolia_background_mobile.png);
 background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
@@ -1498,7 +1496,7 @@ height:auto;
 }
 
 .hotter-wrapper {
-    background-image: url(../img/Somelikeithotter.png);
+    background-image: url(../img/Somelikeithotter_mobile.png);
 background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
@@ -1509,7 +1507,7 @@ height:auto;
 
     .website-wrapper{
 
-    background-image: url(../img/Johhnie_background.png);
+    background-image: url(../img/Johhnie_background_mobile.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
